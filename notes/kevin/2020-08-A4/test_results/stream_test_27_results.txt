@@ -1,0 +1,197 @@
+> create_demo,age_40_50,Viewers between 40 and 50,800
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,0
+previous_period,0
+total,0
+> create_demo,age_20_anime,Viewers under 20 who watch anime weekly,2000
+> display_demo,age_20_anime
+demo,age_20_anime,Viewers under 20 who watch anime weekly
+size,2000
+current_period,0
+previous_period,0
+total,0
+> create_studio,disney,Walt Disney Animation Studios
+> display_studio,disney
+studio,disney,Walt Disney Animation Studios
+current_period,0
+previous_period,0
+total,0
+> create_studio,espn,Entertainment Sports Network Studios
+> display_studio,espn
+studio,espn,Entertainment Sports Network Studios
+current_period,0
+previous_period,0
+total,0
+> create_event,movie,Mulan,1998,88,disney,1000
+> create_event,ppv,30 for 30: Monaco,2020,106,espn,3300
+> create_event,movie,The Little Mermaid,1989,83,disney,2000
+> create_event,movie,Beauty and the Beast,1991,84,disney,1000
+> create_event,ppv,MMA Championship,2020,121,espn,8800
+> create_stream,apv,Amazon Prime Video,12
+> display_stream,apv
+stream,apv,Amazon Prime Video
+subscription,12
+current_period,0
+previous_period,0
+total,0
+licensing,0
+> create_stream,net,Netflix,14
+> display_stream,net
+stream,net,Netflix
+subscription,14
+current_period,0
+previous_period,0
+total,0
+licensing,0
+> offer_movie,apv,Mulan,1998
+> offer_movie,apv,The Little Mermaid,1989
+> offer_movie,apv,Beauty and the Beast,1991
+> offer_ppv,net,30 for 30: Monaco,2020,57
+> display_stream,apv
+stream,apv,Amazon Prime Video
+subscription,12
+current_period,0
+previous_period,0
+total,0
+licensing,4000
+> display_stream,net
+stream,net,Netflix
+subscription,14
+current_period,0
+previous_period,0
+total,0
+licensing,3300
+> display_studio,disney
+studio,disney,Walt Disney Animation Studios
+current_period,4000
+previous_period,0
+total,0
+> display_studio,espn
+studio,espn,Entertainment Sports Network Studios
+current_period,3300
+previous_period,0
+total,0
+> display_offers
+apv,movie,Mulan,1998
+apv,movie,The Little Mermaid,1989
+apv,movie,Beauty and the Beast,1991
+net,ppv,30 for 30: Monaco,2020,57
+> display_events
+movie,Mulan,1998,88,disney,1000
+ppv,30 for 30: Monaco,2020,106,espn,3300
+movie,The Little Mermaid,1989,83,disney,2000
+movie,Beauty and the Beast,1991,84,disney,1000
+ppv,MMA Championship,2020,121,espn,8800
+> watch_event,age_40_50,30,apv,Mulan,1998
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,2880
+previous_period,0
+total,0
+> display_stream,apv
+stream,apv,Amazon Prime Video
+subscription,12
+current_period,2880
+previous_period,0
+total,0
+licensing,4000
+> watch_event,age_40_50,50,apv,Beauty and the Beast,1991
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,4800
+previous_period,0
+total,0
+> watch_event,age_40_50,40,apv,The Little Mermaid,1989
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,4800
+previous_period,0
+total,0
+> watch_event,age_40_50,20,net,30 for 30: Monaco,2020
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,13920
+previous_period,0
+total,0
+> display_stream,net
+stream,net,Netflix
+subscription,14
+current_period,9120
+previous_period,0
+total,0
+licensing,3300
+> watch_event,age_40_50,20,net,30 for 30: Monaco,2020
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,23040
+previous_period,0
+total,0
+> display_stream,net
+stream,net,Netflix
+subscription,14
+current_period,18240
+previous_period,0
+total,0
+licensing,3300
+> watch_event,age_40_50,20,net,30 for 30: Monaco,2020
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,32160
+previous_period,0
+total,0
+> display_stream,net
+stream,net,Netflix
+subscription,14
+current_period,27360
+previous_period,0
+total,0
+licensing,3300
+> display_time
+time,10,2020
+> next_month
+> next_month
+> next_month
+> display_time
+time,1,2021
+> next_month
+> display_time
+time,2,2021
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,0
+previous_period,0
+total,32160
+> display_studio,disney
+studio,disney,Walt Disney Animation Studios
+current_period,0
+previous_period,0
+total,4000
+> display_studio,espn
+studio,espn,Entertainment Sports Network Studios
+current_period,0
+previous_period,0
+total,3300
+> display_stream,apv
+stream,apv,Amazon Prime Video
+subscription,12
+current_period,0
+previous_period,0
+total,4800
+licensing,4000
+> display_stream,net
+stream,net,Netflix
+subscription,14
+current_period,0
+previous_period,0
+total,27360
+licensing,3300
+> stop

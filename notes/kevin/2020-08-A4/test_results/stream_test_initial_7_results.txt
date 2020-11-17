@@ -1,0 +1,33 @@
+> create_studio,warner,Warner Brothers
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,0
+previous_period,0
+total,0
+> create_event,ppv,Justice League Live,2020,180,warner,12000
+> display_events
+ppv,Justice League Live,2020,180,warner,12000
+> create_stream,hulu,Hulu Plus,11
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,0
+previous_period,0
+total,0
+licensing,0
+> offer_ppv,hulu,Justice League Live,2020,80
+> display_offers
+hulu,ppv,Justice League Live,2020,80
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,12000
+previous_period,0
+total,0
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,0
+previous_period,0
+total,0
+licensing,12000
+> stop

@@ -1,0 +1,7 @@
+> create_studio,warner,Warner Brothers
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,0
+previous_period,0
+total,0
+> stop

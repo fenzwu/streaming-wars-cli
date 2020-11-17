@@ -1,0 +1,5 @@
+create_studio,warner,Warner Brothers
+display_studio,warner
+create_event,movie,Batman v Superman,2016,152,warner,1000
+display_events
+stop

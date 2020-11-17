@@ -1,0 +1,8 @@
+> create_demo,age_20_heroes,Viewers of Marvel/DC under 20,10000
+> display_demo,age_20_heroes
+demo,age_20_heroes,Viewers of Marvel/DC under 20
+size,10000
+current_period,0
+previous_period,0
+total,0
+> stop

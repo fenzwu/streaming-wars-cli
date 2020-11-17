@@ -1,0 +1,438 @@
+> create_studio,warner,Warner Brothers
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,0
+previous_period,0
+total,0
+> create_studio,columbia,Columbia Pictures
+> display_studio,columbia
+studio,columbia,Columbia Pictures
+current_period,0
+previous_period,0
+total,0
+> create_studio,20cent,20th Century Fox
+> display_studio,20cent
+studio,20cent,20th Century Fox
+current_period,0
+previous_period,0
+total,0
+> create_studio,espn,Entertainment Sports Network
+> display_studio,espn
+studio,espn,Entertainment Sports Network
+current_period,0
+previous_period,0
+total,0
+> 
+> create_event,movie,Batman Begins,2005,140,warner,1000
+> create_event,movie,Batman v Superman,2016,152,warner,1000
+> create_event,movie,Tenet,2020,150,warner,4000
+> create_event,movie,Wonder Woman,2017,114,warner,2000
+> create_event,movie,Bad Boys for Life,2020,124,columbia,1000
+> create_event,movie,Hollow Man,2000,112,columbia,1000
+> create_event,movie,The Grudge,2004,91,columbia,1000
+> create_event,movie,Spy,2015,120,20cent,2000
+> create_event,movie,The New Mutants,2020,94,20cent,3000
+> create_event,ppv,Justice League Live,2020,180,warner,12000
+> create_event,ppv,Hamilton Live,2020,150,20cent,8000
+> create_event,ppv,World Blitz Championship,2020,180,espn,3000
+> create_event,ppv,EuroCup Football,2020,120,espn,5000
+> display_events
+movie,Batman Begins,2005,140,warner,1000
+movie,Batman v Superman,2016,152,warner,1000
+movie,Tenet,2020,150,warner,4000
+movie,Wonder Woman,2017,114,warner,2000
+movie,Bad Boys for Life,2020,124,columbia,1000
+movie,Hollow Man,2000,112,columbia,1000
+movie,The Grudge,2004,91,columbia,1000
+movie,Spy,2015,120,20cent,2000
+movie,The New Mutants,2020,94,20cent,3000
+ppv,Justice League Live,2020,180,warner,12000
+ppv,Hamilton Live,2020,150,20cent,8000
+ppv,World Blitz Championship,2020,180,espn,3000
+ppv,EuroCup Football,2020,120,espn,5000
+> 
+> create_stream,net,Netflix,12
+> display_stream,net
+stream,net,Netflix
+subscription,12
+current_period,0
+previous_period,0
+total,0
+licensing,0
+> create_stream,apv,Amazon Prime Video,15
+> display_stream,apv
+stream,apv,Amazon Prime Video
+subscription,15
+current_period,0
+previous_period,0
+total,0
+licensing,0
+> create_stream,hulu,Hulu Plus,11
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,0
+previous_period,0
+total,0
+licensing,0
+> 
+> offer_movie,net,Hollow Man,2000
+> offer_movie,net,Spy,2015
+> offer_movie,net,Tenet,2020
+> offer_movie,net,The Grudge,2004
+> offer_movie,apv,Bad Boys for Life,2020
+> offer_movie,apv,Hollow Man,2000
+> offer_movie,apv,The Grudge,2004
+> offer_movie,apv,Spy,2015
+> offer_movie,apv,The New Mutants,2020
+> offer_movie,hulu,Batman Begins,2005
+> offer_movie,hulu,Batman v Superman,2016
+> offer_movie,hulu,The New Mutants,2020
+> offer_movie,hulu,Wonder Woman,2017
+> offer_ppv,net,World Blitz Championship,2020,30
+> offer_ppv,apv,World Blitz Championship,2020,40
+> offer_ppv,apv,EuroCup Football,2020,60
+> offer_ppv,hulu,Hamilton Live,2020,100
+> offer_ppv,hulu,EuroCup Football,2020,30
+> offer_ppv,hulu,Justice League Live,2020,80
+> display_offers
+net,movie,Hollow Man,2000
+net,movie,Spy,2015
+net,movie,Tenet,2020
+net,movie,The Grudge,2004
+apv,movie,Bad Boys for Life,2020
+apv,movie,Hollow Man,2000
+apv,movie,The Grudge,2004
+apv,movie,Spy,2015
+apv,movie,The New Mutants,2020
+hulu,movie,Batman Begins,2005
+hulu,movie,Batman v Superman,2016
+hulu,movie,The New Mutants,2020
+hulu,movie,Wonder Woman,2017
+net,ppv,World Blitz Championship,2020,30
+apv,ppv,World Blitz Championship,2020,40
+apv,ppv,EuroCup Football,2020,60
+hulu,ppv,Hamilton Live,2020,100
+hulu,ppv,EuroCup Football,2020,30
+hulu,ppv,Justice League Live,2020,80
+> 
+> create_demo,age_40_50,Viewers between 40 and 50,800
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,0
+previous_period,0
+total,0
+> create_demo,age_20_heroes,Viewers of Marvel/DC under 20,10000
+> display_demo,age_20_heroes
+demo,age_20_heroes,Viewers of Marvel/DC under 20
+size,10000
+current_period,0
+previous_period,0
+total,0
+> create_demo,sci_fi,Viewers of Science Fiction,2000
+> display_demo,sci_fi
+demo,sci_fi,Viewers of Science Fiction
+size,2000
+current_period,0
+previous_period,0
+total,0
+> 
+> display_time
+time,10,2020
+> 
+> watch_event,age_40_50,40,net,Spy,2015
+> watch_event,age_40_50,70,net,Tenet,2020
+> watch_event,age_20_heroes,30,hulu,Batman Begins,2005
+> watch_event,age_20_heroes,60,hulu,Batman v Superman,2016
+> watch_event,age_20_heroes,50,apv,The New Mutants,2020
+> watch_event,sci_fi,30,net,Hollow Man,2000
+> watch_event,sci_fi,30,apv,The Grudge,2004
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,20000
+previous_period,0
+total,0
+> display_studio,columbia
+studio,columbia,Columbia Pictures
+current_period,5000
+previous_period,0
+total,0
+> display_studio,20cent
+studio,20cent,20th Century Fox
+current_period,18000
+previous_period,0
+total,0
+> display_studio,espn
+studio,espn,Entertainment Sports Network
+current_period,16000
+previous_period,0
+total,0
+> display_stream,net
+stream,net,Netflix
+subscription,12
+current_period,13920
+previous_period,0
+total,0
+licensing,11000
+> display_stream,apv
+stream,apv,Amazon Prime Video
+subscription,15
+current_period,84000
+previous_period,0
+total,0
+licensing,16000
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,66000
+previous_period,0
+total,0
+licensing,32000
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,6720
+previous_period,0
+total,0
+> display_demo,age_20_heroes
+demo,age_20_heroes,Viewers of Marvel/DC under 20
+size,10000
+current_period,141000
+previous_period,0
+total,0
+> display_demo,sci_fi
+demo,sci_fi,Viewers of Science Fiction
+size,2000
+current_period,16200
+previous_period,0
+total,0
+> 
+> next_month
+> display_time
+time,11,2020
+> 
+> offer_movie,net,Hollow Man,2000
+> offer_movie,net,Spy,2015
+> offer_movie,net,Tenet,2020
+> offer_movie,net,The Grudge,2004
+> offer_movie,apv,Bad Boys for Life,2020
+> offer_movie,apv,Hollow Man,2000
+> offer_movie,apv,The Grudge,2004
+> offer_movie,apv,Spy,2015
+> offer_movie,apv,The New Mutants,2020
+> offer_movie,hulu,Batman Begins,2005
+> offer_movie,hulu,Batman v Superman,2016
+> offer_movie,hulu,The New Mutants,2020
+> offer_movie,hulu,Wonder Woman,2017
+> offer_ppv,net,World Blitz Championship,2020,30
+> offer_ppv,apv,World Blitz Championship,2020,40
+> offer_ppv,apv,EuroCup Football,2020,60
+> offer_ppv,hulu,Hamilton Live,2020,100
+> offer_ppv,hulu,EuroCup Football,2020,30
+> offer_ppv,hulu,Justice League Live,2020,80
+> display_offers
+net,movie,Hollow Man,2000
+net,movie,Spy,2015
+net,movie,Tenet,2020
+net,movie,The Grudge,2004
+apv,movie,Bad Boys for Life,2020
+apv,movie,Hollow Man,2000
+apv,movie,The Grudge,2004
+apv,movie,Spy,2015
+apv,movie,The New Mutants,2020
+hulu,movie,Batman Begins,2005
+hulu,movie,Batman v Superman,2016
+hulu,movie,The New Mutants,2020
+hulu,movie,Wonder Woman,2017
+net,ppv,World Blitz Championship,2020,30
+apv,ppv,World Blitz Championship,2020,40
+apv,ppv,EuroCup Football,2020,60
+hulu,ppv,Hamilton Live,2020,100
+hulu,ppv,EuroCup Football,2020,30
+hulu,ppv,Justice League Live,2020,80
+> 
+> watch_event,age_40_50,70,net,Tenet,2020
+> watch_event,age_40_50,20,net,World Blitz Championship,2020
+> watch_event,age_20_heroes,60,hulu,Batman v Superman,2016
+> watch_event,age_20_heroes,50,apv,The New Mutants,2020
+> watch_event,age_20_heroes,40,hulu,Wonder Woman,2017
+> watch_event,age_20_heroes,40,hulu,Justice League Live,2020
+> watch_event,sci_fi,30,apv,The Grudge,2004
+> watch_event,sci_fi,30,hulu,The New Mutants,2020
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,20000
+previous_period,20000
+total,20000
+> display_studio,columbia
+studio,columbia,Columbia Pictures
+current_period,5000
+previous_period,5000
+total,5000
+> display_studio,20cent
+studio,20cent,20th Century Fox
+current_period,18000
+previous_period,18000
+total,18000
+> display_studio,espn
+studio,espn,Entertainment Sports Network
+current_period,16000
+previous_period,16000
+total,16000
+> display_stream,net
+stream,net,Netflix
+subscription,12
+current_period,11520
+previous_period,13920
+total,13920
+licensing,22000
+> display_stream,apv
+stream,apv,Amazon Prime Video
+subscription,15
+current_period,84000
+previous_period,84000
+total,84000
+licensing,32000
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,392600
+previous_period,66000
+total,66000
+licensing,64000
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,11520
+previous_period,6720
+total,6720
+> display_demo,age_20_heroes
+demo,age_20_heroes,Viewers of Marvel/DC under 20
+size,10000
+current_period,461000
+previous_period,141000
+total,141000
+> display_demo,sci_fi
+demo,sci_fi,Viewers of Science Fiction
+size,2000
+current_period,15600
+previous_period,16200
+total,16200
+> 
+> next_month
+> display_time
+time,12,2020
+> 
+> offer_movie,net,Hollow Man,2000
+> offer_movie,net,Spy,2015
+> offer_movie,net,Tenet,2020
+> offer_movie,net,The Grudge,2004
+> offer_movie,apv,Bad Boys for Life,2020
+> offer_movie,apv,Hollow Man,2000
+> offer_movie,apv,The Grudge,2004
+> offer_movie,apv,Spy,2015
+> offer_movie,apv,The New Mutants,2020
+> offer_movie,hulu,Batman Begins,2005
+> offer_movie,hulu,Batman v Superman,2016
+> offer_movie,hulu,The New Mutants,2020
+> offer_movie,hulu,Wonder Woman,2017
+> offer_ppv,net,World Blitz Championship,2020,30
+> offer_ppv,apv,World Blitz Championship,2020,40
+> offer_ppv,apv,EuroCup Football,2020,60
+> offer_ppv,hulu,Hamilton Live,2020,100
+> offer_ppv,hulu,EuroCup Football,2020,30
+> offer_ppv,hulu,Justice League Live,2020,80
+> display_offers
+net,movie,Hollow Man,2000
+net,movie,Spy,2015
+net,movie,Tenet,2020
+net,movie,The Grudge,2004
+apv,movie,Bad Boys for Life,2020
+apv,movie,Hollow Man,2000
+apv,movie,The Grudge,2004
+apv,movie,Spy,2015
+apv,movie,The New Mutants,2020
+hulu,movie,Batman Begins,2005
+hulu,movie,Batman v Superman,2016
+hulu,movie,The New Mutants,2020
+hulu,movie,Wonder Woman,2017
+net,ppv,World Blitz Championship,2020,30
+apv,ppv,World Blitz Championship,2020,40
+apv,ppv,EuroCup Football,2020,60
+hulu,ppv,Hamilton Live,2020,100
+hulu,ppv,EuroCup Football,2020,30
+hulu,ppv,Justice League Live,2020,80
+> 
+> watch_event,age_40_50,20,net,World Blitz Championship,2020
+> watch_event,age_40_50,50,hulu,Hamilton Live,2020
+> watch_event,age_20_heroes,40,hulu,Wonder Woman,2017
+> watch_event,age_20_heroes,40,hulu,Justice League Live,2020
+> watch_event,age_20_heroes,40,hulu,EuroCup Football,2020
+> watch_event,sci_fi,30,hulu,The New Mutants,2020
+> watch_event,sci_fi,30,net,Tenet,2020
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,20000
+previous_period,20000
+total,40000
+> display_studio,columbia
+studio,columbia,Columbia Pictures
+current_period,5000
+previous_period,5000
+total,10000
+> display_studio,20cent
+studio,20cent,20th Century Fox
+current_period,18000
+previous_period,18000
+total,36000
+> display_studio,espn
+studio,espn,Entertainment Sports Network
+current_period,16000
+previous_period,16000
+total,32000
+> display_stream,net
+stream,net,Netflix
+subscription,12
+current_period,12000
+previous_period,11520
+total,25440
+licensing,33000
+> display_stream,apv
+stream,apv,Amazon Prime Video
+subscription,15
+current_period,0
+previous_period,84000
+total,168000
+licensing,48000
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,530600
+previous_period,392600
+total,458600
+licensing,96000
+> display_demo,age_40_50
+demo,age_40_50,Viewers between 40 and 50
+size,800
+current_period,44800
+previous_period,11520
+total,18240
+> display_demo,age_20_heroes
+demo,age_20_heroes,Viewers of Marvel/DC under 20
+size,10000
+current_period,484000
+previous_period,461000
+total,602000
+> display_demo,sci_fi
+demo,sci_fi,Viewers of Science Fiction
+size,2000
+current_period,13800
+previous_period,15600
+total,31800
+> 
+> next_month
+> display_time
+time,1,2021
+> 
+> stop

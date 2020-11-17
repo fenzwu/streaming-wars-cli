@@ -1,0 +1,5 @@
+create_studio,warner,Warner Brothers
+display_studio,warner
+create_event,ppv,Justice League Live,2020,180,warner,12000
+display_events
+stop

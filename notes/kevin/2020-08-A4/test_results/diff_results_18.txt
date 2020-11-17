@@ -1,0 +1,1 @@
+Files stream_test_18_results.txt and stream_test_initial_18_results.txt are identical

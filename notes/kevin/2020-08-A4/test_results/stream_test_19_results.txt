@@ -1,0 +1,138 @@
+> create_studio,warner,Warner Brothers
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,0
+previous_period,0
+total,0
+> create_event,movie,Batman v Superman,2016,152,warner,1000
+> display_events
+movie,Batman v Superman,2016,152,warner,1000
+> create_stream,hulu,Hulu Plus,11
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,0
+previous_period,0
+total,0
+licensing,0
+> offer_movie,hulu,Batman v Superman,2016
+> display_offers
+hulu,movie,Batman v Superman,2016
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,1000
+previous_period,0
+total,0
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,0
+previous_period,0
+total,0
+licensing,1000
+> create_demo,age_20_heroes,Viewers of Marvel/DC under 20,10000
+> display_demo,age_20_heroes
+demo,age_20_heroes,Viewers of Marvel/DC under 20
+size,10000
+current_period,0
+previous_period,0
+total,0
+> watch_event,age_20_heroes,60,hulu,Batman v Superman,2016
+> display_demo,age_20_heroes
+demo,age_20_heroes,Viewers of Marvel/DC under 20
+size,10000
+current_period,66000
+previous_period,0
+total,0
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,66000
+previous_period,0
+total,0
+licensing,1000
+> display_time
+time,10,2020
+> next_month
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,0
+previous_period,1000
+total,1000
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,0
+previous_period,66000
+total,66000
+licensing,1000
+> display_demo,age_20_heroes
+demo,age_20_heroes,Viewers of Marvel/DC under 20
+size,10000
+current_period,0
+previous_period,66000
+total,66000
+> display_time
+time,11,2020
+> display_events
+movie,Batman v Superman,2016,152,warner,1000
+> display_offers
+> offer_movie,hulu,Batman v Superman,2016
+> display_offers
+hulu,movie,Batman v Superman,2016
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,1000
+previous_period,1000
+total,1000
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,0
+previous_period,66000
+total,66000
+licensing,2000
+> display_demo,age_20_heroes
+demo,age_20_heroes,Viewers of Marvel/DC under 20
+size,10000
+current_period,0
+previous_period,66000
+total,66000
+> watch_event,age_20_heroes,30,hulu,Batman v Superman,2016
+> display_demo,age_20_heroes
+demo,age_20_heroes,Viewers of Marvel/DC under 20
+size,10000
+current_period,33000
+previous_period,66000
+total,66000
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,33000
+previous_period,66000
+total,66000
+licensing,2000
+> next_month
+> display_time
+time,12,2020
+> offer_movie,hulu,Batman v Superman,2016
+> watch_event,age_20_heroes,20,hulu,Batman v Superman,2016
+> display_studio,warner
+studio,warner,Warner Brothers
+current_period,1000
+previous_period,1000
+total,2000
+> display_stream,hulu
+stream,hulu,Hulu Plus
+subscription,11
+current_period,22000
+previous_period,33000
+total,99000
+licensing,3000
+> display_demo,age_20_heroes
+demo,age_20_heroes,Viewers of Marvel/DC under 20
+size,10000
+current_period,22000
+previous_period,33000
+total,99000
+> stop

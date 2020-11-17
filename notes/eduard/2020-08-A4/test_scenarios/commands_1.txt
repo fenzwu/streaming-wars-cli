@@ -1,0 +1,3 @@
+create_studio,warner,Warner Brothers
+display_studio,warner
+stop

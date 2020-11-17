@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="streaming_wars:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/streaming_wars_jar</output-path>
+    <root id="archive" name="streaming_wars.jar">
+      <element id="module-output" name="streaming_wars" />
+    </root>
+  </artifact>
+</component>

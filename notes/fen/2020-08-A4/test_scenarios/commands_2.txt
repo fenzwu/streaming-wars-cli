@@ -1,0 +1,3 @@
+create_stream,hulu,Hulu Plus,11
+display_stream,hulu
+stop

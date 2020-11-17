@@ -1,0 +1,49 @@
+create_demo,age_40_50,Viewers between 40 and 50,800
+display_demo,age_40_50
+create_demo,age_20_anime,Viewers under 20 who watch anime weekly,2000
+display_demo,age_20_anime
+create_studio,disney,Walt Disney Animation Studios
+display_studio,disney
+create_studio,espn,Entertainment Sports Network Studios
+display_studio,espn
+create_event,movie,Mulan,1998,88,disney,1000
+create_event,ppv,30 for 30: Monaco,2020,106,espn,3300
+create_event,movie,The Little Mermaid,1989,83,disney,2000
+create_event,movie,Beauty and the Beast,1991,84,disney,1000
+create_event,ppv,MMA Championship,2020,121,espn,8800
+create_stream,apv,Amazon Prime Video,12
+display_stream,apv
+create_stream,net,Netflix,14
+display_stream,net
+offer_movie,apv,Mulan,1998
+offer_movie,apv,The Little Mermaid,1989
+offer_movie,apv,Beauty and the Beast,1991
+offer_ppv,net,30 for 30: Monaco,2020,57
+display_stream,apv
+display_stream,net
+display_studio,disney
+display_studio,espn
+display_offers
+display_events
+watch_event,age_40_50,30,apv,Mulan,1998
+display_demo,age_40_50
+display_stream,apv
+watch_event,age_40_50,50,apv,Beauty and the Beast,1991
+display_demo,age_40_50
+watch_event,age_40_50,40,apv,The Little Mermaid,1989
+display_demo,age_40_50
+watch_event,age_40_50,20,net,30 for 30: Monaco,2020
+display_demo,age_40_50
+display_time
+next_month
+next_month
+next_month
+display_time
+next_month
+display_time
+display_demo,age_40_50
+display_studio,disney
+display_studio,espn
+display_stream,apv
+display_stream,net
+stop

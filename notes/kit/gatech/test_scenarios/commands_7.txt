@@ -1,0 +1,11 @@
+create_studio,warner,Warner Brothers
+display_studio,warner
+create_event,ppv,Justice League Live,2020,180,warner,12000
+display_events
+create_stream,hulu,Hulu Plus,11
+display_stream,hulu
+offer_ppv,hulu,Justice League Live,2020,80
+display_offers
+display_studio,warner
+display_stream,hulu
+stop
